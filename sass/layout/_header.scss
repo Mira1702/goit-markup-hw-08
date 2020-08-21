@@ -2,6 +2,18 @@
     display: none;
 }
 
+@media screen and (min-width: 480px) {
+    .header {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: aqua;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 
 
 /* .navigation {
