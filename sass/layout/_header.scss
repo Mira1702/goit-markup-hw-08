@@ -1,8 +1,9 @@
-.menu-wrapper {
-    display: none;
+.header {        
+    padding-top: 16px;
+    padding-bottom: 16px;        
+    width: 480px;
+    position: relative;
 }
-
-
 
 .header-container {
     display: flex;
@@ -19,13 +20,11 @@
     display: none;
 }
 
-@media screen and (min-width: 480px) {
-    .header {        
-        padding-top: 16px;
-        padding-bottom: 16px;
-        background-color: red;
-        width: 480px;
-    }
+.menu-wrapper {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    right: 0;
 }
 
 /* .navigation {
