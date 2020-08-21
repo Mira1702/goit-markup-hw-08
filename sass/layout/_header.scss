@@ -2,19 +2,31 @@
     display: none;
 }
 
-@media screen and (min-width: 480px) {
-    .header {
-        padding-top: 16px;
-        padding-bottom: 16px;
-        background-color: aqua;
-    }
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-    }
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.menu-btn {
+    background-color: transparent;
+    border: none;
+}
 
+.icon-close {
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .header {        
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: red;
+        width: 480px;
+    }
+}
 
 /* .navigation {
     display: flex;
