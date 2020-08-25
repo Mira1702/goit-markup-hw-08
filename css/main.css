@@ -343,12 +343,30 @@ body {
 }
 
 .menu-btn {
+  height: 40px;
   background-color: transparent;
   border: none;
 }
 
-.menu-btn:hover, .menu-btn:focus {
-  color: #2196F3;
+.menu-btn.is-open .icon-close {
+  display: block;
+}
+
+.menu-btn.is-open .icon-burger {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-btn:hover, .menu-btn:focus {
+    fill: #2196f3;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu-btn {
+    border: none;
+  }
 }
 
 .icon-close {
