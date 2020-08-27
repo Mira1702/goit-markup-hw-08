@@ -49,7 +49,7 @@
     color: #757575;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
     .section-feature {
         padding-top: 60px;
         padding-bottom: 60px;

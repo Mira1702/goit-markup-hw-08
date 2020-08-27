@@ -17,6 +17,7 @@
 }
 
 .team-link-list {
+  border-radius: 0px 0px 4px 4px;
   background-color: #FFFFFF;   
  
     &:hover,
@@ -89,7 +90,7 @@
   fill: #AFB1B8;  
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .head {
     font-size: 28px;
     line-height: 1.178;
