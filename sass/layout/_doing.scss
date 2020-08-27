@@ -1,55 +1,71 @@
-/* .section-what-doing {
- padding-top: 47px;
- padding-bottom: 94px;
+@media screen and (max-width: 767px) {
+  .section-what-doing {
+    display: none;
+  }
 }
 
-.head {
- font-family: $main-font;
- font-style: normal;
- font-weight: bold;
- font-size: 36px;
- line-height: 1.17;
- text-align: center;
- letter-spacing: 0.03em;
- color: #212121;
+@media screen and (min-width: 768px) {
+  .section-what-doing {
+    display: none;
+  }
 }
 
-.what-doing {
- margin-bottom: 50px;
+@media screen and (min-width: 1200px) {
+  .section-what-doing {
+    display: flex;
+    width: 1200px;
+    padding-top: 47px;
+    padding-bottom: 94px;
+  }
+
+  .head {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+   
+  .what-doing {
+    margin-bottom: 50px;
+  }
+   
+  .what-doing-list {
+    display: flex;
+    height: 294px;
+  }  
+
+  .doing-list {    
+    position: relative;
+   
+     &:not(:last-child) {
+       margin-right: 30px;
+      }
+  } 
+
+  .doing-list-img {
+    display: block;
+  }
+   
+  .desc {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    bottom: 0px;
+    padding: 27px 27px;
+  }
 }
-
-.what-doing-list {
- display: flex;
- height: 294px;
-}
-
-
-.doing-list {    
- position: relative;
-
-  &:not(:last-child) {
-    margin-right: 30px;
-   }
-}
-
-.doing-list-img {
- display: block;
-}
-
-.desc {
- font-family: $main-font;
- font-style: normal;
- font-weight: bold;
- font-size: 14px;
- line-height: 1.15;
- text-align: center;
- letter-spacing: 0.03em;
- text-transform: uppercase;
- color: #FFFFFF;
- background: rgba(47, 48, 58, 0.8);
- position: absolute;
- width: 370px;
- height: 70px;
- bottom: 0px;
- padding: 27px 27px;
-} */
+ 
