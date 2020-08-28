@@ -1248,6 +1248,44 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.user-email {
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2F303A;
+  display: block;
+  padding-left: 10px;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  background: #2196F3;
+  border: 0;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-form {
+  display: flex;
+  padding-left: 29px;
+}
+
 @media screen and (max-width: 767px) {
   .container-footer {
     text-align: center;
@@ -1278,6 +1316,16 @@ body {
   }
   .social-link-svg {
     fill: #FFFFFF;
+  }
+  .mailing-form {
+    display: block;
+  }
+  .user-email {
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1324,6 +1372,9 @@ body {
   }
   .social-link-footer:hover .social-link-svg, .social-link-footer:focus .social-link-svg {
     fill: #FFFFFF;
+  }
+  .mailing-form {
+    display: flex;
   }
 }
 
@@ -1409,12 +1460,6 @@ body {
  margin-right: 30px;  
 }
 
-
-
-.mailing-form {
- display: flex;
-}
-
 .user-email{
  width: 358px;
  height: 50px;
@@ -1443,31 +1488,7 @@ body {
  border: 1px solid red;
 }
 
-.button-form {
- display: flex;
- padding-left: 29px;
-}
 
-.button {
- font-family: $main-font;
- font-style: normal;
- font-weight: bold;
- font-size: 16px;
- line-height: 1.88;
- align-items: center;
- text-align: center;
- letter-spacing: 0.06em;
- color: #FFFFFF;
- background: $accent-colour;
- border: 0;
- border-radius: 4px;
- width: 200px;
- height: 50px;
- left: 700px;
- top: 430px;
- cursor: pointer;
- 
- margin-left: auto;
- margin-right: auto;
-} */
+
+ */
 /*# sourceMappingURL=main.css.map */
