@@ -127,24 +127,39 @@
       margin-bottom: 8px;
     }
   }
-}
-
-@media screen and (min-width: 480px) {
-  .footer-logo {    
-    display: block;    
-  }
 
   .footer-links {    
     margin-top: 60px;
     margin-bottom: 60px;
   }
+
+  .section-footer {
+    display: block;
+  }
+
+  .for-tablet {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .footer-logo {    
+    display: block;    
+  } 
   
   .footer-social-link {
     justify-content: center;
     margin-top: 20px;
   }
 
-  .social-link-svg {
+  .social-link-svg-footer {
+    width: 20px;
+    height: 20px;
     fill: #FFFFFF;
   }
 
@@ -161,11 +176,35 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .container-footer {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .for-tablet {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
     text-align: center;
   }
   
+  .container-footer {
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 768px) {  
+  .section-footer {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .footer-address-and-link {
+    display: flex;    
+    align-items: baseline;
+    justify-content: space-around;
+  }
+
+
   .footer.container-all {
     text-align: center;
   } 
@@ -179,13 +218,18 @@
     }
   }
 
-  .social-link-svg {
+  .social-link-svg-footer {
     fill: #FFFFFF;
   }
 }
 
 
 @media screen and (min-width: 1200px) {
+  .section-footer {
+    flex-wrap: nowrap;
+    align-items: baseline;
+  }
+
   .footer-address {
     margin-right: 69px;
   }
@@ -206,16 +250,20 @@
   }
 
   .footer-logo {    
-    display: flex;    
+    display: flex;   
+    color: #FFFFFF; 
   }
 
   .footer-address-section {
     width: 231px;
   }
+  
+  .footer-links {    
+    margin-right: 94px;    
+  }
 
-  .footer-links {
-    width: 300px;
-    margin-right: 94px;
+  .footer-social-link {
+    justify-content: flex-start;
   }
 
   .social-link-footer {    
@@ -225,7 +273,7 @@
        background-color: $accent-colour;
        color: #FFFFFF; 
    
-       .social-link-svg {
+       .social-link-svg-footer {
           fill: #FFFFFF;
         }
     }
@@ -262,6 +310,7 @@
 
   .mailing-form {
     display: flex;
+    align-items: baseline;
   }
 
   .user-email{

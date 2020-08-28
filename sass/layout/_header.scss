@@ -103,7 +103,10 @@
     vertical-align: middle;
 }
 
-@media screen and (max-width: 767px) {  
+@media screen and (max-width: 767px) { 
+    .navigation-mail {
+        display: block;
+    }
     .header-container {        
         justify-content: space-between;          
     }
@@ -177,7 +180,7 @@
   
 @media screen and (min-width: 768px) {
     .header-link {
-        margin-right: 88px;        
+        margin-right: 78px;        
     }
 
     .menu-btn {
