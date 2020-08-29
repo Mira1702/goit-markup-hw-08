@@ -723,9 +723,10 @@ body {
 
 .address-link-svg {
   width: 16px;
-  height: 11px;
+  height: 15px;
   fill: #757575;
   vertical-align: middle;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 767px) {
