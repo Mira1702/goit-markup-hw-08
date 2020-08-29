@@ -1513,7 +1513,7 @@ body {
   padding-bottom: 60px;
 }
 
-.section-footer .header-link {
+.section-footer .header-link-footer {
   margin-right: 0px;
 }
 
@@ -1719,7 +1719,7 @@ body {
     display: flex;
     align-items: baseline;
   }
-  .header-link {
+  .header-link-footer {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: bold;
