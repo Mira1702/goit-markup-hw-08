@@ -1,13 +1,11 @@
 .header {        
-    padding-top: 15px;
-    padding-bottom: 15px;    
-    position: relative;     
-          
+    padding-top: 15px;      
+    position: relative;               
 } 
 
 .header-container {
     display: flex;    
-    align-items: center;    
+    align-items: baseline;    
 }
 
 .header-link{

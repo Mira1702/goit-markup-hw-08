@@ -629,13 +629,12 @@ body {
 } */
 .header {
   padding-top: 15px;
-  padding-bottom: 15px;
   position: relative;
 }
 
 .header-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .header-link {
@@ -993,8 +992,17 @@ body {
     background-position: center;
     background-size: cover;
     background-clip: content-box;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(/Images/Для-мобилы/Header.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(/Images/Заголовок/468/Header-468.png);
   }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .section-title {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(/Images/Заголовок/468/Header-468@2x.png);
+  }
+}
+
+@media screen and (max-width: 767px) {
   .heading {
     font-size: 26px;
     line-height: 1.615;
@@ -1011,8 +1019,17 @@ body {
     background-position: center;
     background-size: cover;
     background-clip: content-box;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(/Images/Заголовок/Header.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(/Images/Заголовок/768/Header-768.png);
   }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .section-title {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(/Images/Заголовок/768/Header-768@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
   .heading {
     font-size: 26px;
     line-height: 1.615;
@@ -1028,8 +1045,17 @@ body {
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../Images/Заголовок/Header.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(/Images/Заголовок/1200/Header-1200.jpg);
   }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .section-title {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(/Images/Заголовок/1200/Header-1200@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .heading {
     font-size: 44px;
     line-height: 1.37;
@@ -1156,6 +1182,7 @@ body {
     width: 1200px;
     padding-top: 47px;
     padding-bottom: 94px;
+    margin: 0 auto;
   }
   .head {
     font-family: "Roboto", sans-serif;
@@ -1273,7 +1300,6 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #FFFFFF;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1359,12 +1385,6 @@ body {
   }
 }
 
-/* 
-
-
-
-
- */
 .head {
   font-family: "Roboto", sans-serif;
   font-style: normal;

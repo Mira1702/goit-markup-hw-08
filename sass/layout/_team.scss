@@ -16,7 +16,7 @@
   color: #212121;
 }
 
-.team-link-list {
+.team-link-list {  
   border-radius: 0px 0px 4px 4px;
   background-color: #FFFFFF;   
  
@@ -69,8 +69,7 @@
   align-items: center;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
-  background-color: #FFFFFF;
+  border-radius: 50%;  
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
@@ -162,19 +161,10 @@
   }
 
   .team-link-list {    
-    width: 270px; 
+    width: 270px;     
     &:not(:last-child) {
       margin-right: 30px;
     }   
   }
 
-   
-
 }
-
-/* 
-
-
-
-
- */

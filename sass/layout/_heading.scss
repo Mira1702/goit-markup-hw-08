@@ -1,6 +1,6 @@
 .section-title {    
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;      
 }
 
 .heading {
@@ -41,10 +41,21 @@
         height: 400px;   
         background-position: center;
         background-size: cover;
-        background-clip: content-box;  
+        background-clip: content-box; 
         background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
-    url(/Images/Для-мобилы/Header.jpg);      
+        url(/Images/Заголовок/468/Header-468.png);        
+                
     }
+
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+         .section-title {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
+             url(/Images/Заголовок/468/Header-468@2x.png);
+        }
+    }
+    
 
     .heading {        
         font-size: 26px;
@@ -61,9 +72,18 @@
         height: 400px;   
         background-position: center;
         background-size: cover;
-        background-clip: content-box;  
+        background-clip: content-box;   
         background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
-    url(/Images/Заголовок/Header.jpg);      
+            url(/Images/Заголовок/768/Header-768.png);          
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+         .section-title {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
+             url(/Images/Заголовок/768/Header-768@2x.png);
+        }
     }
 
     .heading {        
@@ -80,9 +100,18 @@
         width: 1600px;
         height: 600px;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto;       
         background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
-        url(../Images/Заголовок/Header.jpg);
+            url(/Images/Заголовок/1200/Header-1200.jpg); 
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+         .section-title {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
+            url(/Images/Заголовок/1200/Header-1200@2x.jpg);
+        }
     }
 
     .heading {        
@@ -93,3 +122,4 @@
         margin-bottom: 20px;
     }       
 }
+
