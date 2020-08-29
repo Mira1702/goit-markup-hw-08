@@ -49,6 +49,11 @@
   .client-list-item:nth-child(2n+1) {
     margin-right: 30px;
   }
+
+  .client-list {
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 768px) {
@@ -72,10 +77,7 @@
     margin-bottom: 30px;
   }
 
-  .client-list {
-    flex-wrap: wrap;
-    align-items: center;
-  }
+  
 
   
 

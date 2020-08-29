@@ -80,6 +80,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
   background-color: #FFFFFF;
   padding: 40px;
@@ -988,7 +989,6 @@ body {
 
 @media screen and (max-width: 767px) {
   .section-title {
-    width: 480px;
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -1434,6 +1434,10 @@ body {
   .client-list-item:nth-child(2n+1) {
     margin-right: 30px;
   }
+  .client-list {
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 768px) {
@@ -1452,10 +1456,6 @@ body {
   }
   .head-client {
     margin-bottom: 30px;
-  }
-  .client-list {
-    flex-wrap: wrap;
-    align-items: center;
   }
   .client-item {
     width: 210px;
